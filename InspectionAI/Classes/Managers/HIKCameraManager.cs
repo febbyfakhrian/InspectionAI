@@ -221,26 +221,26 @@ namespace InspectionAI.Classes.Managers
                         new Font("Arial", 10), Brushes.Lime, 10, 60);
                 }
                 return testBitmap;
+                
+                    /* ORIGINAL CODE - SDK signature unknown:
+                    IntPtr pData = IntPtr.Zero;
+                    uint nDataLen = 0;
 
-                /* ORIGINAL CODE - SDK signature unknown:
-                IntPtr pData = IntPtr.Zero;
-                uint nDataLen = 0;
-                
-                int result = camera.GetImageBuffer(ref pData, ref nDataLen, 1000);
-                
-                if (result == 0 && pData != IntPtr.Zero && nDataLen > 0)
-                {
-                    byte[] buffer = new byte[nDataLen];
-                    Marshal.Copy(pData, buffer, 0, (int)nDataLen);
-                    
-                    Bitmap bitmap = ConvertToBitmap(buffer, 640, 480);
-                    
-                    return bitmap;
+                    int result = camera.GetImageBuffer(ref pData, ref nDataLen, 1000);
+
+                    if (result == 0 && pData != IntPtr.Zero && nDataLen > 0)
+                    {
+                        byte[] buffer = new byte[nDataLen];
+                        Marshal.Copy(pData, buffer, 0, (int)nDataLen);
+
+                        Bitmap bitmap = ConvertToBitmap(buffer, 640, 480);
+
+                        return bitmap;
+                    }
+
+                    return null;
+                    */
                 }
-                
-                return null;
-                */
-            }
             catch (Exception ex)
             {
                 OnError($"Capture error: {ex.Message}");

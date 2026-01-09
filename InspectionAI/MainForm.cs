@@ -56,7 +56,15 @@ namespace InspectionAI
 
         public MainForm()
         {
-            InitializeComponent();
+            try { InitializeComponent();
+                MessageBox.Show("InitializeComponent OK!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                throw;
+            }
+
 
             //this.EnableRoundedCorners = true;
             pbCameraFeed = new PictureBox
