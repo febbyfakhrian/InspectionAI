@@ -5,3 +5,4 @@ packages/
 
 *.zip
 *.nupkg
+"config.json" 
