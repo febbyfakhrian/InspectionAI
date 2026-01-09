@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspectionAI", "InspectionAI\InspectionAI.csproj", "{45077AEE-2F5C-438F-971B-54593DAA1D92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45077AEE-2F5C-438F-971B-54593DAA1D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45077AEE-2F5C-438F-971B-54593DAA1D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45077AEE-2F5C-438F-971B-54593DAA1D92}.Debug|x64.ActiveCfg = Debug|x64
+		{45077AEE-2F5C-438F-971B-54593DAA1D92}.Debug|x64.Build.0 = Debug|x64
+		{45077AEE-2F5C-438F-971B-54593DAA1D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45077AEE-2F5C-438F-971B-54593DAA1D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45077AEE-2F5C-438F-971B-54593DAA1D92}.Release|x64.ActiveCfg = Release|x64
+		{45077AEE-2F5C-438F-971B-54593DAA1D92}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {512052BC-0944-4416-9387-9E80C1A5D972}
+	EndGlobalSection
+EndGlobal
